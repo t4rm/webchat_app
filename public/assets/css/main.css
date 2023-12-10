@@ -7,6 +7,10 @@
     --pad: max(20px, 4vmin)
 }
 
+html, body {
+    overflow: hidden;
+}
+
 @media(prefers-color-scheme: dark) {
     :root {
         --c-bg: hsl(270, 25%, 18%);
