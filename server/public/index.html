@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Encrypted Web-Chat</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open%20Sans">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.min.js"
+        integrity="sha512-Xm9qbB6Pu06k3PUwPj785dyTl6oHxgsv9nHp7ej7nCpAqGZT3OZpsELuCYX05DdonFpTlBpXMOxjavIAIUwr0w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="./assets/js/main.js"></script>
+</head>
+
+<body>
+    <div class="flex">
+        <section id="chatContainer" class="box shadow center col-2 large bg hidden ">
+            <section id="leftBar" class="rectangle flex-col radD list ulContainer">
+                <header class="logo">
+                    <h1>Tarek's Chat</h1>
+                </header>
+                <aside>
+                    <ul class="roomList">
+                    </ul>
+                </aside>
+                <!-- Contient la liste des utilisateurs -->
+            </section>
+
+            <section id="rightBar" class="rectangle radG chatbox">
+                <!-- Contient la chat box -->
+                <header class="logo">
+                    <div id="select-btn" class="select-btn hidden">
+                        <span id="arrow-dwn" class="arrow-dwn">▼</span>
+                        <div class="subnav-content shadow">
+                            <p id="userActiveText"></p>
+                            <ul class="userList">
+                            </ul>
+                        </div>
+                    </div>
+
+                    <form class="form-join">
+                        <!-- <input type="text" id="name" maxlength="8" placeholder="Your name" size="5" required> -->
+                        <input type="text" id="room" class="full chatbar" placeholder="Enter your chat room's name"
+                            size="22" required>
+                        <button type="submit" id="join" class="msg-submit buttonbar different">Join</button>
+                    </form>
+
+                    <form class="form-left selfEnd">
+                        <button class="svg-button grow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-log-out">
+                                <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                                <polyline points="16 17 21 12 16 7"></polyline>
+                                <line x1="21" y1="12" x2="9" y2="12"></line>
+                            </svg>
+                        </button>
+                    </form>
+                </header>
+                <main class="chat">
+                    <div id="chatContent" class="content">
+                        <ul id="chatMessages" class="chat-display">
+
+                        </ul>
+                    </div>
+                </main>
+                <p class="activity"></p>
+                <form class="flex flex-center foot form-msg">
+                    <input type="text" id="message" class="full chatbar" placeholder="Send a message here">
+                    <button type="submit" class="msg-submit buttonbar">Send</button>
+
+                </form>
+            </section>
+        </section>
+
+        <section class="box shadow small bg login">
+            <form class="login-form">
+                <label for="name">Come chat with us !</label>
+                <input id="name" type="text" class="full chatbar" placeholder="Enter your name" maxlength="8" size="9"
+                    required>
+                <button type="submit" class="login-submit buttonbar">Access</button>
+            </form>
+        </section>
+    </div>
+
+</body>
+
+</html>
