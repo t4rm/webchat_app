@@ -6,8 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node .",
-    "dev": "nodemon .",
-    "prod": "npm install ; node ."
+    "dev": "nodemon ."
   },
   "keywords": [],
   "author": "",
