@@ -1,4 +1,4 @@
-const socket = io('ws://localhost:3500')
+const socket = io('https://webchat-app-lweu.onrender.com')
 
 // Service messagerie
 const msgInput = document.querySelector('#message')
