@@ -33,13 +33,12 @@ Lancer le serveur :
 ```
 
 Ouvrez `http://localhost:5500/public/` et voilà!
-## Screenshots
-
-**Démonstration :**
-![Démo](https://d3bwj3ni6qbufg.cloudfront.net/o8b23n%2Fpreview%2F54824771%2Fmain_large.gif?response-content-disposition=inline%3Bfilename%3D%22main_large.gif%22%3B&response-content-type=image%2Fgif&Expires=1702236039&Signature=Oobs-JzIUCQG9JTDVkicsugHfaZLeInUz54ALPOnoymIDDfBFtLNI121DsktctKhZzdOdC8yiVmNtnXPSlxwb39Xy6pYnc87W097DMbdk6pQ3Ju812mYpNSjUx9L4p-3~6FqEI7HHYpjw2v6ojpVm0DrYmjgBPJEnAEaf5ZZMDwtsE~HKyBfVNLUv5cz8Ux9lefq--~BylqqjUPNlbMVT-YsjZ5VnuhtGjloloPC0YQ90E4LlQ4UxCVjbp-Pkh78WnmufqH6S5dtakyVoTeMtDjX2V7zDaglGBp~SsWEp441hIuLIbepVT7a6mLHUmUmM1myKN2zZiYxuH-nODPc7A__&Key-Pair-Id=APKAJT5WQLLEOADKLHBQ)
-
 
 ## Tech Stack
 
 **Server:** Node, Express, Socket.io
 
+**Démonstration :**
+
+
+https://github.com/t4rm/webchat_app/assets/152737586/4c6e5ade-5af3-40ca-ab2f-e8fdf8fa9fc2
