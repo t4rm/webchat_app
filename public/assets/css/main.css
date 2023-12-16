@@ -362,6 +362,7 @@ body {
 .post--center {
     width: 60%;
     align-self: center;
+    text-align: center;
 }
 
 .post__header {
