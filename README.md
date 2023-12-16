@@ -2,7 +2,7 @@
 
 Cette application Web est une plateforme de salon de discussion instantanée. Vous pouvez rejoindre le salon d'autres utilisateurs ou créez le votre et y discuter. Celle-ci est composée en deux parties, l'une côté serveur et l'autre client. La partie serveur permets de faire la liaison entre les différents clients de l'application.
 
-Accessible sur internet [ici](https://webchat-app-lweu.onrender.com).
+Accessible sur internet [ici](https://webchat-app-lweu.onrender.com) (temps d'attente élevé lorsque le site n'est pas utilisé activement).
 
 ## Pré-requis
 
